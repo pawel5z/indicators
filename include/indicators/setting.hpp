@@ -48,14 +48,14 @@ template <> struct if_else<true> { using type = std::true_type; };
 
 template <> struct if_else<false> { using type = std::false_type; };
 
-template <bool condition, typename True, typename False> struct if_else_type;
+template <bool condition, typename TTrue, typename TFalse> struct if_else_type;
 
-template <typename True, typename False> struct if_else_type<true, True, False> {
-  using type = True;
+template <typename TTrue, typename TFalse> struct if_else_type<true, TTrue, TFalse> {
+  using type = TTrue;
 };
 
-template <typename True, typename False> struct if_else_type<false, True, False> {
-  using type = False;
+template <typename TTrue, typename TFalse> struct if_else_type<false, TTrue, TFalse> {
+  using type = TFalse;
 };
 
 template <typename... Ops> struct conjuction;
