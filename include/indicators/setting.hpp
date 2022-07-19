@@ -28,10 +28,11 @@ SOFTWARE.
 #ifndef INDICATORS_SETTING
 #define INDICATORS_SETTING
 
-#include <cstddef>
 #include "color.hpp"
 #include "font_style.hpp"
 #include "progress_type.hpp"
+
+#include <cstddef>
 #include <string>
 #include <tuple>
 #include <type_traits>

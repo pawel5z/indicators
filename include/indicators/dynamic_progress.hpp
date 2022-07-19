@@ -2,13 +2,14 @@
 #ifndef INDICATORS_DYNAMIC_PROGRESS
 #define INDICATORS_DYNAMIC_PROGRESS
 
-#include <atomic>
-#include <functional>
 #include "color.hpp"
 #include "setting.hpp"
 #include "cursor_control.hpp"
 #include "cursor_movement.hpp"
 #include "details/stream_helper.hpp"
+
+#include <atomic>
+#include <functional>
 #include <iostream>
 #include <mutex>
 #include <vector>

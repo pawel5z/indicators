@@ -3,14 +3,14 @@
 #define INDICATORS_INDETERMINATE_PROGRESS_BAR
 
 #include "details/stream_helper.hpp"
+#include "color.hpp"
+#include "setting.hpp"
+#include "terminal_size.hpp"
 
 #include <algorithm>
 #include <atomic>
 #include <chrono>
 #include <cmath>
-#include "color.hpp"
-#include "setting.hpp"
-#include "terminal_size.hpp"
 #include <iomanip>
 #include <iostream>
 #include <mutex>

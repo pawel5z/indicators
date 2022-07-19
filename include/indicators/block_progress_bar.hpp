@@ -4,12 +4,12 @@
 
 #include "color.hpp"
 #include "details/stream_helper.hpp"
+#include "setting.hpp"
+#include "terminal_size.hpp"
 
 #include <algorithm>
 #include <atomic>
 #include <chrono>
-#include "setting.hpp"
-#include "terminal_size.hpp"
 #include <iomanip>
 #include <iostream>
 #include <sstream>

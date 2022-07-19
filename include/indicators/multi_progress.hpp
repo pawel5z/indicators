@@ -1,15 +1,17 @@
 
 #ifndef INDICATORS_MULTI_PROGRESS
 #define INDICATORS_MULTI_PROGRESS
+
+#include "color.hpp"
+#include "cursor_movement.hpp"
+#include "details/stream_helper.hpp"
+
 #include <atomic>
 #include <functional>
 #include <iostream>
 #include <mutex>
 #include <vector>
 
-#include "color.hpp"
-#include "cursor_movement.hpp"
-#include "details/stream_helper.hpp"
 
 namespace indicators {
 

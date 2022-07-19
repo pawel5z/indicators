@@ -3,13 +3,13 @@
 #define INDICATORS_PROGRESS_SPINNER
 
 #include "details/stream_helper.hpp"
+#include "color.hpp"
+#include "setting.hpp"
 
 #include <algorithm>
 #include <atomic>
 #include <chrono>
 #include <cmath>
-#include "color.hpp"
-#include "setting.hpp"
 #include <iomanip>
 #include <iostream>
 #include <mutex>
